@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS - ZEAL</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../Plate/zeal.png" alt="ZEAL" class="logo-img">
+                <span class="nav-brand-text">ZEAL ESPORTS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="teams.html">MEMBERS</a></li>
+                <li><a href="news.html" class="active">NEWS</a></li>
+                <li><a href="partner.html">PARTNER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="header-background">
+            <img src="../Plate/news-header.jpg" alt="NEWS Header" class="header-image">
+            <!-- 画像がない場合のフォールバック -->
+            <div class="header-fallback"></div>
+        </div>
+        <div class="container">
+            <h1>NEWS</h1>
+            <p class="page-subtitle">お知らせ</p>
+        </div>
+    </section>
+
+    <!-- News Filter -->
+    <section class="news-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">ALL</button>
+                <button class="filter-btn" data-category="announcement">ANNOUNCEMENT</button>
+                <button class="filter-btn" data-category="tournament">TOURNAMENT</button>
+                <button class="filter-btn" data-category="team">TEAM</button>
+                <button class="filter-btn" data-category="media">MEDIA</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="news-section">
+        <div class="container">
+            <div class="news-grid">
+                <!-- ニュース記事はここに追加されます -->
+                <!-- 例: 
+                <article class="news-card" data-category="announcement">
+                    <div class="news-image">
+                        <div class="placeholder-img"></div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024.12.XX</span>
+                            <span class="news-category">ANNOUNCEMENT</span>
+                        </div>
+                        <h3>ニュースタイトル</h3>
+                        <p>ニュースの内容をここに記載します。</p>
+                        <a href="#" class="read-more">詳細を見る</a>
+                    </div>
+                </article>
+                -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Social Media -->
+    <section class="social-media-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>SOCIAL MEDIA</h2>
+                <p class="section-subtitle">ソーシャルメディア</p>
+            </div>
+            <div class="social-grid">
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>X</h3>
+                    <p>最新のニュースや選手の日常をお届け</p>
+                    <a href="#" class="btn btn-secondary">フォローする</a>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube</h3>
+                    <p>大会のハイライトや選手インタビュー</p>
+                    <a href="#" class="btn btn-secondary">チャンネル登録</a>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>写真やストーリーで選手の日常を紹介</p>
+                    <a href="#" class="btn btn-secondary">フォローする</a>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-twitch"></i>
+                    </div>
+                    <h3>Twitch</h3>
+                    <p>選手のライブ配信や大会の生中継</p>
+                    <a href="#" class="btn btn-secondary">フォローする</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="../index.html">
+                        <img src="../Plate/zeal.png" alt="ZEAL" class="logo-img">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="../index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="teams.html">MEMBERS</a>
+                    <a href="news.html">NEWS</a>
+                    <a href="partner.html">PARTNER</a>
+                    <a href="contact.html">CONTACT</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">X</a>
+                    <a href="#" class="social-link">YouTube</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitch</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZEAL Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html> 
