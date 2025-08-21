@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+    <meta name="language" content="Japanese">
+    <title>ZEAL - 限界を越えろ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Plate/zeal.png" alt="ZEAL" class="logo-img">
+                <span class="nav-brand-text">ZEAL ESPORTS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="pages/about.html">ABOUT</a></li>
+                <li><a href="pages/teams.html">MEMBERS</a></li>
+                <li><a href="pages/news.html">NEWS</a></li>
+                <li><a href="pages/partner.html">PARTNER</a></li>
+                <li><a href="pages/contact.html">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="Plate/zeal お知らせ告知用 文字なし.png" alt="ZEAL お知らせ告知" class="header-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">限界を越えろ。</span>
+                <span class="title-line">ZEAL YOUR LIMITS</span>
+            </h1>
+            <p class="hero-subtitle">挑戦を続ける、新たなeスポーツチーム</p>
+            <div class="hero-buttons">
+                <a href="pages/about.html" class="btn btn-primary">詳細を見る</a>
+                <a href="pages/teams.html" class="btn btn-secondary">チーム紹介</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>ABOUT</h2>
+                <p class="section-subtitle">私たちについて</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>ZEALは、2024年に誕生したeスポーツチームです。</p>
+                    <p>黎明期よりモバイルeスポーツを軸にFPSタイトルに多く参入しており、<br>
+                    世界大会出場を目指し、日本一の累計獲得賞金額を目指しています。</p>
+                    <p>「限界を超えろ。ZEAL YOUR LIMITS」をスローガンに、<br>
+                    選手、スタッフ一同、既成概念を打ち破り、挑戦を続けています。</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">世界大会出場</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">累計賞金獲得額</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">国内優勝</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams" class="teams">
+        <div class="container">
+            <div class="section-header">
+                <h2>MEMBERS</h2>
+                <p class="section-subtitle">メンバー</p>
+            </div>
+            <div class="teams-grid">
+                <a href="pages/teams.html#fortnite" class="team-card">
+                    <div class="team-image">
+                        <img src="Plate/fortnite-team.jpg" alt="FORTNITE Team" class="team-photo">
+                        <!-- 画像がない場合のフォールバック -->
+                        <div class="team-icon fallback">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>FORTNITE</h3>
+                        <p>バトルロイヤルの王者を目指す</p>
+                    </div>
+                </a>
+                <a href="pages/teams.html#staff" class="team-card">
+                    <div class="team-image">
+                        <img src="Plate/staff-team.jpg" alt="STAFF Team" class="team-photo">
+                        <!-- 画像がない場合のフォールバック -->
+                        <div class="team-icon fallback">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45768C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>STAFF</h3>
+                        <p>チームを支えるスタッフ陣</p>
+                    </div>
+                </a>
+                <a href="pages/teams.html#creator" class="team-card">
+                    <div class="team-image">
+                        <img src="Plate/creator-team.jpg" alt="CREATOR Team" class="team-photo">
+                        <!-- 画像がない場合のフォールバック -->
+                        <div class="team-icon fallback">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 22V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>CREATOR</h3>
+                        <p>コンテンツクリエイター陣</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>NEWS</h2>
+                <p class="section-subtitle">お知らせ</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">2024.12.20</div>
+                    <h3>ZEAL公式サイトオープン</h3>
+                    <p>ZEALの公式ウェブサイトがオープンしました。</p>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">2024.12.19</div>
+                    <h3>チーム設立のお知らせ</h3>
+                    <p>新しいeスポーツチームZEALの設立を発表いたします。</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>CONTACT</h2>
+                <p class="section-subtitle">お問い合わせ</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>お問い合わせ</h3>
+                    <p>ビジネスパートナーシップ、メディア取材、その他のお問い合わせは下記までご連絡ください。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@zeal.jp</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>03-XXXX-XXXX</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="お名前" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="メールアドレス" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="メッセージ" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">送信</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Plate/zeal.png" alt="ZEAL" class="logo-img">
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">HOME</a>
+                    <a href="pages/about.html">ABOUT</a>
+                    <a href="pages/teams.html">MEMBERS</a>
+                    <a href="pages/news.html">NEWS</a>
+                    <a href="pages/partner.html">PARTNER</a>
+                    <a href="pages/contact.html">CONTACT</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">X</a>
+                    <a href="#" class="social-link">YouTube</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitch</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZEAL Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
